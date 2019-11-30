@@ -3,7 +3,7 @@
   <img src="https://github.com/MikeIbberson/comparisons/workflows/Node%20CI/badge.svg" alt="Status" />
 </p>
 
-<p>This package adds a new method to the String class for evaluating object key values. See below for formatting.</p>
+<p>This package adds a new method to the String class for evaluating object key values.</p>
 
 ```Javascript
 let exp;
