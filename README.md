@@ -6,5 +6,11 @@
 <p>This package exports a class for evaluating object key values.</p>
 
 ```Javascript
-new Comparison(['foo=bar']).eval({ foo: 'bar' }) // true
+/**
+ * Expressions can have >, <, =, >=, <=
+ * They can compare numbers, alpha and dates.
+ */
+const test = new Comparison(['foo=bar'])
+test.eval({ foo: 'bar' }); // true
+test.eval({ foo: 'quux' }); // false
 ```
