@@ -3,7 +3,7 @@
 <p>
 <img  src="https://github.com/MikeIbberson/comparisons/workflows/Node%20CI/badge.svg"  alt="Status" />
 <a href='https://coveralls.io/github/MikeIbberson/comparisons?branch=master'><img src='https://coveralls.io/repos/github/MikeIbberson/comparisons/badge.svg?branch=master' alt='Coverage Status' /></a>
-
+<img src='https://bettercodehub.com/edge/badge/MikeIbberson/comparisons?branch=master'>
 </p> 
 
 <p>Currently, expressions support <code>=</code>, <code>>=</code>, <code><=</code>, <code>></code> and <code><</code> operators. Optionally, you can include a second constructor argument for changing the locale (the default is "en"). Any expressions that do not match a recognized operation get stripped out and are assumed to pass.</p>
