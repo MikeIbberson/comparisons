@@ -15,5 +15,6 @@ const Comparison = require('comparisons');
 const tests = ['foo=bar', 'num>=2'];
 const stub = { foo: 'bar', num: 3 };
 const runner =  new  Comparison(tests);
-runner.eval(stub);
+runner.eval(stub); // returns true or false
+runner.query(); // returns a Mongo friendly query
 ```
