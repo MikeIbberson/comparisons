@@ -6,7 +6,7 @@
 <img src='https://bettercodehub.com/edge/badge/MikeIbberson/comparisons?branch=master'>
 </p> 
 
-<p>Currently, expressions support <code>=</code>, <code>>=</code>, <code><=</code>, <code>></code> and <code><</code> operators. Optionally, you can include a second constructor argument for changing the locale (the default is "en"). Any expressions that do not match a recognized operation get stripped out and are assumed to pass.</p>
+<p>Currently, expressions support <code>=</code>, <code>>=</code>, <code><=</code>, <code>></code> and <code><</code> operators. Optionally, you can include a second constructor argument for changing the locale (the default is "en"). Any expressions that do not match a recognized operation get stripped out and are assumed to pass. For simply matching on exists, use the <code>=*</code> expression.</p>
 
 <p>Don't worry about type casting&mdash;we'll handle that for you.</p>
 
