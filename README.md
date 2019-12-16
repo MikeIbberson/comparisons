@@ -20,3 +20,6 @@ const runner =  new  Comparison(tests);
 runner.eval(stub); // returns true or false
 runner.query(); // returns a Mongo friendly query
 ```
+
+<h2>Coming Soon</h2>
+I'd like to implement non-matching operators into this as well so we can compare against differences.
