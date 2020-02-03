@@ -14,7 +14,7 @@
 
 <h2>Example usage</h2>
 
-```
+```Bash
   yarn add comparisons
 ```
 
