@@ -12,11 +12,16 @@
 
 <p>Don't worry about type casting&mdash;we'll handle that for you.</p>
 
+<h2>Example usage</h2>
+
+```
+  yarn add comparisons
+```
+
 ```Javascript
-// @TODO yarn add comparisons
 const Comparison = require('comparisons');
 
-const tests = ['foo=bar', 'num>=2'];
+const tests = ['foo=bar', 'num>=2', '!quuz'];
 const stub = { foo: 'bar', num: 3 };
 const runner =  new  Comparison(tests);
 runner.eval(stub); // returns true or false
