@@ -15,6 +15,7 @@
 <h2>Example usage</h2>
 
 ```Bash
+  # Or use npm install
   yarn add comparisons
 ```
 
