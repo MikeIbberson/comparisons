@@ -1,4 +1,3 @@
-
 <h1>🧮 Comparisons</h1>
 <p>
 <img  src="https://github.com/MikeIbberson/comparisons/workflows/Node%20CI/badge.svg"  alt="Status" />
